@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    background-color: #3C9AE2;
+    text-align: left;
+    padding-left: 50px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 18px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li{
+    /* background-color: #2b3a67; */
+    background: linear-gradient(#79BDC0,#352ADE);
+    border-radius: 35px 3px;
+    text-align: center;
+} 
+h1{
+    padding: 15px;
+}
